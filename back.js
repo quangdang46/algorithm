@@ -1,4 +1,5 @@
 function solveEightQueens(board, row) {
+//check row=8
   if (row === 8) {
     return true;
   }
