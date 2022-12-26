@@ -39,3 +39,21 @@ function minKey(key, visited, V) {
 
   return minIndex;
 }
+
+
+const graph = [
+  [0, 2, 0, 6, 0],
+  [2, 0, 3, 8, 5],
+  [0, 3, 0, 0, 7],
+  [6, 8, 0, 0, 9],
+  [0, 5, 7, 9, 0]
+];
+
+// Define the starting vertex
+const start = 0;
+
+// Call the prim function and capture the return value
+const result = prim(graph, start);
+
+// Print the result to the console
+console.log(result);
