@@ -11,3 +11,5 @@ function findMinCoins(coins, change) {
   }
   return numCoins;
 }
+
+console.log(findMinCoins([1, 5, 10, 25], 36)); // 3

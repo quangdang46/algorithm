@@ -64,3 +64,5 @@ function getDigit(num, place) {
   return Math.floor(Math.abs(num) / Math.pow(10, place)) % 10;
 }
 
+console.log(radixSort([23, 345, 5467, 12, 2345, 9852]));
+
